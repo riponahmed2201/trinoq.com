@@ -12,7 +12,7 @@
   <div class="card card-success card-outline">
     <div class="card-header">
         <h3 class="card-title">All Category Information</h3>
-        <a href="{{route('add-category')}}" class="btn btn-success btn-lg float-sm-right"><i class="fas fa-plus"></i> Add Category</a>
+        <a href="{{route('add-category')}}" class="btn btn-success float-sm-right"><i class="fas fa-plus"></i> Add Category</a>
 
         @include('message')
 
@@ -30,18 +30,19 @@
           </tr>
         </thead>
         <tbody>
-
-
+          <?php $i=1;?>
+          @foreach($categories as $category)
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>{{$i++}}</td>
+            <td> {{$category->category_name}} </td>
+            <td> {{$category->category_description}} </td>
+            <td> {{$category->category_status == 1 ? 'Published' :'Unpublished'}} </td>
             <td>
-            <a href="" class="btn btn-warning"><i class="fas fa-edit"></i></a>
-              <a href="" class="btn btn-danger"><i class="fas fa-trash-alt "></i></a>
+              <a href="{{route('edit-category',$category->id)}}" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+              <a href="{{route('delete-category',$category->id)}}" class="btn btn-danger"><i class="fas fa-trash-alt "></i></a>
             </td>
           </tr>
+          @endforeach
 
         </tbody>
       </table>

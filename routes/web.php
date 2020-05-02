@@ -34,41 +34,47 @@ Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 
-// =================== START ALL CATEGORY ROUTE  ==========================
+// ============= START ALL CATEGORY ROUTE  ================
     Route::get('/admin/category', [
+         'middleware'=>'auth',
         'uses'		=> 'Admin\CategoryController@all_category',
         'as'		=> 'all-category'
     ]);
 
     Route::get('/admin/add-category', [
+         'middleware'=>'auth',
         'uses'		=> 'Admin\CategoryController@add_category',
         'as'		=> 'add-category'
     ]);
     Route::post('/admin/save-category', [
+         'middleware'=>'auth',
         'uses'		=> 'Admin\CategoryController@save_category',
         'as'		=> 'save-category'
     ]);
 
     Route::get('/admin/edit-category/{id}', [
+         'middleware'=>'auth',
         'uses'		=> 'Admin\CategoryController@edit_category',
         'as'		=> 'edit-category'
     ]);
     Route::post('/admin/update-user/{id}', [
+         'middleware'=>'auth',
         'uses'		=> 'Admin\CategoryController@update_category',
         'as'		=> 'update-category'
     ]);
     Route::get('/admin/delete-category/{id}', [
+         'middleware'=>'auth',
         'uses'		=> 'Admin\CategoryController@delete_category',
         'as'		=> 'delete-category'
     ]);
-// =================== END ALL CATEGORY ROUTE  =====================
+// =============== END ALL CATEGORY ROUTE  ==================
 
-// <=================== START ALL PORTFOLIO ROUTE  =====================>
+// <=================== START ALL PORTFOLIO ROUTE  =============
     Route::get('/portfolio', [
         'uses'		=> 'PortfolioController@index',
         'as'		=> 'portfolio'
     ]);
-// <=================== END ALL PORTFOLIO ROUTE  =====================>
+// <=================== END ALL PORTFOLIO ROUTE  ===============>
 
 
 // <=================== START ALL BLOG ROUTE  =====================>
@@ -77,3 +83,38 @@ Route::get('/blog', [
     'as'		=> 'blog'
 ]);
 // <=================== END ALL BLOG ROUTE  =====================>
+
+
+//  ====== START ALL USER ROUTE HERE ============
+Route::get('/add-sub-category', [
+    'middleware'=>'auth',
+    'uses'		=> 'Admin\SubCategoryController@add_sub_category',
+    'as'		=> 'add-sub-category'
+]);
+
+Route::post('/save-sub-category', [
+    'middleware'=>'auth',
+    'uses'		=> 'Admin\SubCategoryController@store_sub_category',
+    'as'		=> 'save-sub-category'
+]);
+Route::get('/all-sub-category', [
+    'middleware'=>'auth',
+    'uses'		=> 'Admin\SubCategoryController@all_sub_category',
+    'as'		=> 'all-sub-category'
+]);
+Route::get('/edit-sub-category/{id}', [
+    'middleware'=>'auth',
+    'uses'		=> 'Admin\SubCategoryController@edit_sub_category',
+    'as'		=> 'edit-sub-category'
+]);
+Route::post('/update-sub-category/{id}', [
+    'middleware'=>'auth',
+    'uses'		=> 'Admin\SubCategoryController@update_sub_category',
+    'as'		=> 'update-sub-category'
+]);
+Route::get('/delete-sub-category/{id}', [
+    'middleware'=>'auth',
+    'uses'		=> 'Admin\SubCategoryController@delete_sub_category',
+    'as'		=> 'delete-sub-category'
+]);
+//  ============= END ALL USER ROUTE HERE ==============
