@@ -4,21 +4,22 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div class="footer-widget text-var--2">
                         <div class="logo">
-                            <a href="index.html">
+                        <a href="{{route('home')}}">
                                 <img src="{{asset('assets/frontend/img/logo/brook-white2.png')}}" alt="brook white">
                             </a>
                         </div>
-                        <div class="footer-inner">
-                            <p>Brook is a multi-purpose WordPress theme for big and small-sized businesses. Enjoy
-                                the theme's original design, functional features & responsive layouts.</p>
+                        <div class="footer-inner text-justify">
+                            <p>
+                                Trinoq is a Software Developer & Designer team. Creative and Reliable software developing is its power. From Mobile & web to desktop application are being created here. We are everybody’s developer team.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt_mobile--40">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 mt_mobile--40">
                     <div class="footer-widget text-var--2 menu--about">
                         <h2 class="widgettitle">About us</h2>
                         <div class="footer-menu">
@@ -33,7 +34,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 mt_md--40 mt_sm--40">
                     <div class="footer-widget text-var--2 menu--contact">
                         <h2 class="widgettitle">Contact</h2>
                         <div class="footer-address">
@@ -53,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+                {{-- <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
                     <div class="footer-widget text-var--2 menu--instagram">
                         <h2 class="widgettitle">Instagram</h2>
 
@@ -161,7 +162,7 @@
 
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
@@ -177,13 +178,12 @@
                         <ul class="bk-copyright-menu d-flex bk-hover justify-content-center justify-content-md-start flex-wrap flex-sm-nowrap">
                             <li><a href="#">Our blog</a></li>
                             <li><a href="#">Latest projects</a></li>
-                            <li><a href="#">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright-right text-md-right text-center">
-                        <p>© 2020 Ripon Ahmed. <a href="https://trinoq.com">All Rights Reserved.</a></p>
+                        <p>© 2020 Trinoq Technology<a href="https://trinoq.com">All Rights Reserved.</a></p>
                     </div>
                 </div>
             </div>

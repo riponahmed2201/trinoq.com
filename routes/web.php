@@ -82,6 +82,29 @@ Route::get('/blog', [
     'uses'		=> 'BlogController@index',
     'as'		=> 'blog'
 ]);
+
+Route::get('/all-category-show', [
+    'uses'		=> 'FrontendController@allCategoryShow',
+    'as'		=> 'all-category-show'
+]);
+
+Route::post('/store-subscriber', [
+    'uses'		=> 'AdminDashboardController@store_subscriber',
+    'as'		=> 'store-subscriber'
+]);
+
+Route::get('/all-subscriber', [
+    'middleware'=>'auth',
+    'uses'		=> 'AdminDashboardController@all_subscriber',
+    'as'		=> 'all-subscriber'
+]);
+
+Route::get('/delete-subscriber/{id}', [
+    'middleware'=>'auth',
+   'uses'		=> 'AdminDashboardController@delete_subscriber',
+   'as'		=> 'delete-subscriber'
+]);
+
 // <=================== END ALL BLOG ROUTE  =====================>
 
 

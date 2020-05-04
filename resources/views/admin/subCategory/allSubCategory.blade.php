@@ -26,24 +26,27 @@
             <th>Category Name</th>
             <th>Sub Category Name</th>
             <th>Sub Category Description</th>
-            <th>Status</th>
             <th>Image</th>
+            <th>Status</th>
             <th>Action</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-                <a href="" class="btn btn-warning"><i class="fas fa-edit"></i></a>
-                <a href="" class="btn btn-danger"><i class="fas fa-trash-alt "></i></a>
-            </td>
-          </tr>
+          <?php $i =1;?>
+          @foreach ($subCategories as $subCategory)
+            <tr>
+              <td> {{$i++}} </td>
+              <td> {{$subCategory->category_name}} </td>
+              <td>{{$subCategory->name}} </td>
+              <td>{{$subCategory->description}} </td>
+              <td> <img style="width:50px; height:50px" src="/uploads/categories/{{$subCategory->image}}" alt=""> </td>
+              <td>{{$subCategory->status == 1 ? 'Published' : 'Unpublished' }}</td>
+              <td>
+                  <a href="{{route('edit-sub-category',$subCategory->id)}}" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+              <a href="{{route('delete-sub-category',$subCategory->id)}}" class="btn btn-danger"><i class="fas fa-trash-alt "></i></a>
+              </td>
+            </tr>
+          @endforeach
         </tbody>
       </table>
     </div>
