@@ -8,7 +8,7 @@
                         <div class="logo">
                         <a href="{{route('home')}}">
                             <img src="{{asset('assets/frontend/Logo/black_logo.png')}}" alt="Trinoq Logo">
-                            </a>
+                        </a>
                         </div>
                     </div>
                     <!-- Mainmenu Wrap -->
@@ -20,7 +20,7 @@
                                 <li class="lavel-1 slide--megamenu"><a href="#"><span>Services</span></a></li>
                                 <li class="lavel-1 slide--megamenu"><a href="{{route('portfolio')}}"><span>Portfolio</span></a></li>
                                 <li class="lavel-1 slide--megamenu"><a href="{{route('blog')}}"><span>Blog</span></a></li>
-                                <li class="lavel-1 slide--megamenu"><a href="{{route('blog')}}"><span>Contact Us</span></a></li>
+                                <li class="lavel-1 slide--megamenu"><a href="{{route('contact')}}"><span>Contact Us</span></a></li>
                             </ul>
                         </nav>
                     </div>

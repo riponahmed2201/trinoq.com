@@ -106,7 +106,7 @@
     <!-- End Service Area -->
 
     <!-- Start What We Do Area -->
-    <div class="brook-what-do-area ptb--160 ptb-md--80 ptb-sm--60 bg_color--1">
+    {{-- <div class="brook-what-do-area ptb--160 ptb-md--80 ptb-sm--60 bg_color--1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-2">
@@ -150,11 +150,11 @@
             </div>
             <!-- End What Do Inner -->
         </div>
-    </div>
+    </div> --}}
     <!-- End What We Do Area -->
 
     <!-- Start Video Popup Area -->
-    <div class="brook-video-area bg_color--1 pb--130 pb_md--80 pb_sm--60 bg-as-text">
+    {{-- <div class="brook-video-area bg_color--1 pb--130 pb_md--80 pb_sm--60 bg-as-text">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-12">
@@ -178,7 +178,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Video Popup Area -->
 
     <!-- Start Brand Stratagy Area -->
@@ -258,11 +258,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="messonry-button text-center mb--70">
-                        <button data-filter="*" class="is-checked"><span class="filter-text">All</span><span class="filter-counter">6</span></button>
-                        <button data-filter=".cat--1"><span class="filter-text">Graphic Design</span> <span class="filter-counter">3</span></button>
+                        <button data-filter="*" class="is-checked"><span class="filter-text">All</span><span class="filter-counter">All</span></button>
+                        <button data-filter=".cat--1"><span class="filter-text">Graphic Design</span> <span class="filter-counter">1</span></button>
                         <button data-filter=".cat--2"><span class="filter-text">Web Development</span> <span class="filter-counter">2</span></button>
-                        <button data-filter=".cat--3"><span class="filter-text">Mobile App Development</span> <span class="filter-counter">4</span></button>
-                        <button data-filter=".cat--4"><span class="filter-text">Desktop Application</span> <span class="filter-counter">5</span></button>
+                        <button data-filter=".cat--3"><span class="filter-text">Mobile App Development</span> <span class="filter-counter">3</span></button>
+                        <button data-filter=".cat--4"><span class="filter-text">Desktop Application</span> <span class="filter-counter">4</span></button>
                     </div>
                 </div>
             </div>
@@ -271,37 +271,9 @@
                     <div class="portfolio-grid-metro6 mesonry-list">
 
                         <div class="resizer"></div>
-                        <!-- Start Single Portfolio -->
-                        <div class="portfolio-33-33 cat--1 cat--4">
-                            <div class="portfolio with-caption">
-                                <div class="thumb video-with-thumb">
-                                    <a href="portfolio-details.html">
-                                    <img src="{{asset('assets/frontend/img/portfolio/grid/caption-1.jpg')}}" alt="portfolio images">
-                                    </a>
-
-                                    <!-- Start Single Popup -->
-                                    <div class="video-btn position--center">
-                                        <a class="play__btn" href="https://www.youtube.com/watch?v=9No-FiEInLA">
-                                            <div class="video-icon yellow-color-2"></div>
-                                        </a>
-                                    </div>
-                                    <!-- End Single Popup -->
-
-                                </div>
-                                <div class="caption-bottom text-center">
-                                    <div class="info">
-                                        <h5 class="heading heading-h5"><a href="portfolio-details.html">The
-                                                Language of
-                                                Designs</a></h5>
-                                        <p class="bk_pra">Design</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Portfolio -->
 
                         <!-- Start Single Portfolio -->
-                        <div class="portfolio-33-33 cat--2 cat--4">
+                        <div class="portfolio-33-33 cat--1">
                             <div class="portfolio with-caption">
                                 <div class="thumb">
                                     <a href="portfolio-details.html">
@@ -310,8 +282,31 @@
                                 </div>
                                 <div class="caption-bottom text-center">
                                     <div class="info">
-                                        <h5 class="heading heading-h5"><a href="portfolio-details.html">B-sharp
-                                                High-end Audio</a></h5>
+                                        <h5 class="heading heading-h5">
+                                            <a href="portfolio-details.html">Trinoq
+                                                Web Development
+                                            </a>
+                                            </h5>
+                                        <p class="bk_pra">Design</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-33-33 cat--2">
+                            <div class="portfolio with-caption">
+                                <div class="thumb">
+                                    <a href="portfolio-details.html">
+                                        <img src="{{asset('assets/frontend/img/portfolio/grid/caption-2.jpg')}}" alt="portfolio images">
+                                    </a>
+                                </div>
+                                <div class="caption-bottom text-center">
+                                    <div class="info">
+                                        <h5 class="heading heading-h5">
+                                            <a href="portfolio-details.html">Trinoq
+                                                Web Development
+                                            </a>
+                                            </h5>
                                         <p class="bk_pra">Design</p>
                                     </div>
                                 </div>
@@ -320,7 +315,7 @@
                         <!-- End Single Portfolio -->
 
                         <!-- Start Single Portfolio -->
-                        <div class="portfolio-33-33 cat--1 cat--3">
+                        <div class="portfolio-33-33 cat--3">
                             <div class="portfolio with-caption">
                                 <div class="thumb">
                                     <a href="portfolio-details.html">
@@ -329,53 +324,31 @@
                                 </div>
                                 <div class="caption-bottom text-center">
                                     <div class="info">
-                                        <h5 class="heading heading-h5"><a href="portfolio-details.html">TSmart
-                                                Sound System</a></h5>
+                                        <h5 class="heading heading-h5">
+                                            <a href="portfolio-details.html"> Trinoq
+                                                Mobile App Development
+                                            </a>
+                                        </h5>
                                         <p class="bk_pra">Design</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Portfolio -->
 
-                        <!-- Start Single Portfolio -->
-                        <div class="portfolio-33-33 cat--1 cat--3 cat--4">
-                            <div class="portfolio with-caption">
-                                <div class="thumb video-with-thumb">
-                                    <a href="portfolio-details.html">
-                                        <img src="{{asset('assets/frontend/img/portfolio/grid/caption-4.jpg')}}" alt="portfolio images">
-                                    </a>
-                                    <!-- Start Single Popup -->
-                                    <div class="video-btn position--center">
-                                        <a class="play__btn" href="https://www.youtube.com/watch?v=9No-FiEInLA">
-                                            <div class="video-icon yellow-color-2"></div>
-                                        </a>
-                                    </div>
-                                    <!-- End Single Popup -->
-                                </div>
-                                <div class="caption-bottom text-center">
-                                    <div class="info">
-                                        <h5 class="heading heading-h5"><a href="portfolio-details.html">Awe-inspiring
-                                                Projects</a></h5>
-                                        <p class="bk_pra">Design</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Portfolio -->
-
-                        <!-- Start Single Portfolio -->
-                        <div class="portfolio-33-33 cat--2 cat--3 cat--4">
+                        <div class="portfolio-33-33 cat--4">
                             <div class="portfolio with-caption">
                                 <div class="thumb">
                                     <a href="portfolio-details.html">
-                                        <img src="{{asset('assets/frontend/img/portfolio/grid/caption-5.jpg')}}" alt="portfolio images">
+                                        <img src="{{asset('assets/frontend/img/portfolio/grid/caption-3.jpg')}}" alt="portfolio images">
                                     </a>
                                 </div>
                                 <div class="caption-bottom text-center">
                                     <div class="info">
-                                        <h5 class="heading heading-h5"><a href="portfolio-details.html">Gifts
-                                                for Photography Lovers</a></h5>
+                                        <h5 class="heading heading-h5">
+                                            <a href="portfolio-details.html">Trinoq
+                                                Mobile App Development
+                                            </a>
+                                        </h5>
                                         <p class="bk_pra">Design</p>
                                     </div>
                                 </div>
@@ -393,7 +366,7 @@
                                 </div>
                                 <div class="caption-bottom text-center">
                                     <div class="info">
-                                        <h5 class="heading heading-h5"><a href="portfolio-details.html">Enchanting
+                                        <h5 class="heading heading-h5"><a href="portfolio-details.html">Trinoq
                                                 Portrait Hacks</a></h5>
                                         <p class="bk_pra">Design</p>
                                     </div>
@@ -401,6 +374,8 @@
                             </div>
                         </div>
                         <!-- End Single Portfolio -->
+
+
                     </div>
                 </div>
             </div>

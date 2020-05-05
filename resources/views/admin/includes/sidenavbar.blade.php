@@ -59,6 +59,15 @@
                 </a>
               </li>
 
+              <li class="nav-item has-treeview">
+                <a href="{{route('all-subscriber')}}" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                      Customer Contact Info
+                    </p>
+                  </a>
+                </li>
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>

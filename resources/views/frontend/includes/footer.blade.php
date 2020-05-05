@@ -8,7 +8,7 @@
                     <div class="footer-widget text-var--2">
                         <div class="logo">
                         <a href="{{route('home')}}">
-                                <img src="{{asset('assets/frontend/img/logo/brook-white2.png')}}" alt="brook white">
+                            <img src="{{asset('assets/frontend/Logo/whitelogo.png')}}" alt="Trinoq Logo">
                             </a>
                         </div>
                         <div class="footer-inner text-justify">

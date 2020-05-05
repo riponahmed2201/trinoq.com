@@ -29,6 +29,28 @@ Route::get('/', [
     'as'		=> 'home'
 ]);
 
+Route::get('/all-category-show', [
+    'uses'		=> 'FrontendController@allCategoryShow',
+    'as'		=> 'all-category-show'
+]);
+
+Route::get('/about', [
+    'uses'		=> 'FrontendController@showAboutPage',
+    'as'		=> 'about'
+]);
+
+Route::get('/contact', [
+    'uses'		=> 'FrontendController@showContactPage',
+    'as'		=> 'contact'
+]);
+
+Route::post('/store-contact', [
+    'uses'		=> 'FrontendController@storeContactInfo',
+    'as'		=> 'store-contact'
+]);
+
+
+
 
 Auth::routes();
 
@@ -83,24 +105,17 @@ Route::get('/blog', [
     'as'		=> 'blog'
 ]);
 
-Route::get('/all-category-show', [
-    'uses'		=> 'FrontendController@allCategoryShow',
-    'as'		=> 'all-category-show'
-]);
-
 Route::post('/store-subscriber', [
     'uses'		=> 'AdminDashboardController@store_subscriber',
     'as'		=> 'store-subscriber'
 ]);
 
 Route::get('/all-subscriber', [
-    'middleware'=>'auth',
     'uses'		=> 'AdminDashboardController@all_subscriber',
     'as'		=> 'all-subscriber'
 ]);
 
 Route::get('/delete-subscriber/{id}', [
-    'middleware'=>'auth',
    'uses'		=> 'AdminDashboardController@delete_subscriber',
    'as'		=> 'delete-subscriber'
 ]);
