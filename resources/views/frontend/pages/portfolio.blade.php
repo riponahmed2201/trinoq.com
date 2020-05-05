@@ -1,6 +1,27 @@
 @extends('master')
 
 @section('content')
+
+        <!-- Start Breadcaump Area -->
+        <div class="breadcaump-area pt--150 pt_lg--150 pt_md--150 pt_sm--150 pb--40 bg_image--54 breadcaump-title-bar breadcaump-title-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcaump-inner text-center">
+                            <h2 class="heading">Portfolio</h2>
+                            <div class="breadcrumb-insite">
+                                <ul class="core-breadcaump">
+                                <li><a href="{{route('home')}}">Home</a></li>
+                                    <li class="current">Portfolio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Breadcaump Area -->
+
 <main class="page-content">
 
     <!-- Start Portfolio Area -->
@@ -27,7 +48,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">The Language of Designs</a></h3>
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">The Language of Designs</a></h3>
                     </div>
                 </div>
             </div>
@@ -40,7 +61,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">B-sharp High-end Audio</a></h3>
+                    <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">B-sharp High-end Audio</a></h3>
                     </div>
                 </div>
             </div>
@@ -53,7 +74,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">Smart Sound System</a></h3>
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">Smart Sound System</a></h3>
                     </div>
                 </div>
             </div>
@@ -66,7 +87,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">Awe-inspiring Projects</a></h3>
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">Awe-inspiring Projects</a></h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +100,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">Gifts for Photography
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">Gifts for Photography
                                 Lovers</a></h3>
                     </div>
                 </div>
@@ -93,7 +114,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">Enchanting Portrait
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">Enchanting Portrait
                                 Hacks</a></h3>
                     </div>
                 </div>
@@ -107,7 +128,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">Digital Marketing
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">Digital Marketing
                                 Basics</a></h3>
                     </div>
                 </div>
@@ -121,7 +142,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">Measure Digital
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">Measure Digital
                                 Progress</a></h3>
                     </div>
                 </div>
@@ -135,7 +156,7 @@
                 </div>
                 <div class="port-overlay-info">
                     <div class="hover-action">
-                        <h3 class="post-overlay-title"><a href="portfolio-details.html">Resize Image Using
+                        <h3 class="post-overlay-title"><a href="{{route('portfolio-details')}}">Resize Image Using
                                 Photoshop</a></h3>
                     </div>
                 </div>

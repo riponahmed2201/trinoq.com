@@ -3,6 +3,26 @@
 
 @section('content')
 
+    <!-- Start Breadcaump Area -->
+    <div class="breadcaump-area pt--150 pt_lg--150 pt_md--150 pt_sm--150 pb--40 bg_image--54 breadcaump-title-bar breadcaump-title-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcaump-inner text-center">
+                        <h2 class="heading">Blog</h2>
+                        <div class="breadcrumb-insite">
+                            <ul class="core-breadcaump">
+                            <li><a href="{{route('home')}}">Home</a></li>
+                                <li class="current">Blog</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcaump Area -->
+
 <main class="page-content">
 
     <!-- Start Blog Grid Area -->
@@ -17,7 +37,7 @@
                             <div class="blog-grid-minimal outline">
                                 <div class="grid-overlay" style="background-image: url(assets/frontend/img/blog/grid/grid-1.jpg)"></div>
                                 <div class="post-content">
-                                    <h5 class="heading"><a href="blog-details.html">1950s up to now Pop Music
+                                    <h5 class="heading"><a href="{{route('blog-details')}}">1950s up to now Pop Music
                                             Defined</a></h5>
                                     <div class="post-meta">
                                         <div class="post-date">May 21, 2018</div>
@@ -33,7 +53,7 @@
                             <div class="blog-grid-minimal outline">
                                 <div class="grid-overlay" style="background-image: url(assets/frontend/img/blog/grid/grid-2.jpg)"></div>
                                 <div class="post-content">
-                                    <h5 class="heading"><a href="blog-details.html">Niche Blogs for Rising
+                                    <h5 class="heading"><a href="{{route('blog-details')}}">Niche Blogs for Rising
                                             Metal Bands</a></h5>
                                     <div class="post-meta">
                                         <div class="post-date">May 21, 2018</div>
@@ -49,7 +69,7 @@
                             <div class="blog-grid-minimal outline">
                                 <div class="grid-overlay" style="background-image: url(assets/frontend/img/blog/grid/grid-3.jpg)"></div>
                                 <div class="post-content">
-                                    <h5 class="heading"><a href="blog-details.html">1950s up to now Pop Music
+                                    <h5 class="heading"><a href="{{route('blog-details')}}">1950s up to now Pop Music
                                             Defined</a></h5>
                                     <div class="post-meta">
                                         <div class="post-date">May 21, 2018</div>

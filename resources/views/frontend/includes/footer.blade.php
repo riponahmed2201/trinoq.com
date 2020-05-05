@@ -24,11 +24,11 @@
                         <h2 class="widgettitle">About us</h2>
                         <div class="footer-menu">
                             <ul class="ft-menu-list bk-hover">
-                                <li><a href="about-us-01.html">About Us</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="career.html">Career</a></li>
-                                <li><a href="services-classic.html">Services</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{{route('about')}}">About Us</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Career</a></li>
+                            <li><a href="{{route('services')}}">Services</a></li>
+                            <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul>
                         </div>
                     </div>

@@ -28,6 +28,11 @@ class FrontendController extends Controller
         return view('frontend.pages/about');
     }
 
+    public function showServicesPage()
+    {
+        return view('frontend.pages/services');
+    }
+
     public function showContactPage()
     {
         return view('frontend.pages/contact');

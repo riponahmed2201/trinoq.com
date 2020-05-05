@@ -23,7 +23,7 @@ Route::get('/clear-cache', function() {
 // Route::get('/', function () {
 //     return view('home');
 // });
-
+// ============= START ALL FRONTENDCONTROLLER ROUTE  ================
 Route::get('/', [
     'uses'		=> 'FrontendController@index',
     'as'		=> 'home'
@@ -44,11 +44,16 @@ Route::get('/contact', [
     'as'		=> 'contact'
 ]);
 
+Route::get('/services', [
+    'uses'		=> 'FrontendController@showServicesPage',
+    'as'		=> 'services'
+]);
+
 Route::post('/store-contact', [
     'uses'		=> 'FrontendController@storeContactInfo',
     'as'		=> 'store-contact'
 ]);
-
+// ============= END ALL FRONTENDCONTROLLER ROUTE  ================
 
 
 
@@ -96,15 +101,26 @@ Route::get('/dashboard', 'HomeController@index')->name('dashboard');
         'uses'		=> 'PortfolioController@index',
         'as'		=> 'portfolio'
     ]);
-// <=================== END ALL PORTFOLIO ROUTE  ===============>
+    Route::get('/portfolio-details', [
+        'uses'		=> 'PortfolioController@portfolioDetails',
+        'as'		=> 'portfolio-details'
+    ]);
+// ================ END ALL PORTFOLIO ROUTE  ============
 
 
-// <=================== START ALL BLOG ROUTE  =====================>
+// ================= START ALL BLOG ROUTE  =================
 Route::get('/blog', [
     'uses'		=> 'BlogController@index',
     'as'		=> 'blog'
 ]);
 
+Route::get('/blog-details', [
+    'uses'		=> 'BlogController@blogDetails',
+    'as'		=> 'blog-details'
+]);
+// ================ END ALL BLOG ROUTE  ====================
+
+// ================ START ALL SUBSCRIBER ROUTE  ==============
 Route::post('/store-subscriber', [
     'uses'		=> 'AdminDashboardController@store_subscriber',
     'as'		=> 'store-subscriber'
@@ -119,8 +135,9 @@ Route::get('/delete-subscriber/{id}', [
    'uses'		=> 'AdminDashboardController@delete_subscriber',
    'as'		=> 'delete-subscriber'
 ]);
+// =============== END ALL SUBSCRIBER ROUTE  ==============
 
-// <=================== END ALL BLOG ROUTE  =====================>
+
 
 
 //  ====== START ALL USER ROUTE HERE ============

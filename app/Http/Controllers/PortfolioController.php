@@ -11,7 +11,7 @@ class PortfolioController extends Controller
         return view('frontend.pages.portfolio');
     }
 
-    public function portfolio_details()
+    public function portfolioDetails() 
     {
         return view('frontend.pages.portfolio_details');
     }

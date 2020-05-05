@@ -3,6 +3,27 @@
 
 @section('content')
 
+        <!-- Start Breadcaump Area -->
+        <div class="breadcaump-area pt--150 pt_lg--150 pt_md--150 pt_sm--150 pb--40 bg_image--54 breadcaump-title-bar breadcaump-title-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcaump-inner text-center">
+                            <h2 class="heading">Portfolio Details</h2>
+                            <div class="breadcrumb-insite">
+                                <ul class="core-breadcaump">
+                                <li><a href="{{route('home')}}">Home</a></li>
+                                <li><a href="{{route('portfolio-details')}}">Portfolio</a></li>
+                                    <li class="current">Portfolio Details</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Breadcaump Area -->
+
 <main class="page-content">
 
     <!-- Start Portfolio Details -->
@@ -16,19 +37,19 @@
 
                         <!-- Start Portfolio Image -->
                         <div class="portfolio-image mb--50">
-                            <img src="img\portfolio\big-image\gallery-4.jpg" alt="portfolio">
+                        <img src="{{asset('assets/frontend/img/portfolio/big-image/gallery-4.jpg')}}" alt="portfolio">
                         </div>
                         <!-- End Portfolio Image -->
 
                         <!-- Start Portfolio Image -->
                         <div class="portfolio-image mb--50">
-                            <img src="img\portfolio\big-image\gallery-5.jpg" alt="portfolio">
+                            <img src="{{asset('assets/frontend/img/portfolio/big-image/gallery-5.jpg')}}" alt="portfolio">
                         </div>
                         <!-- End Portfolio Image -->
 
                         <!-- Start Portfolio Image -->
                         <div class="portfolio-image">
-                            <img src="img\portfolio\big-image\gallery-6.jpg" alt="portfolio">
+                            <img src="{{asset('assets/frontend/img/portfolio/big-image/gallery-6.jpg')}}" alt="portfolio">
                         </div>
                         <!-- End Portfolio Image -->
 

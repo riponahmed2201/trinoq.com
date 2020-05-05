@@ -1,62 +1,10 @@
-{{-- @extends('master')
+
+@extends('master')
 
 @section('content')
 
-    This is contact page
-@endsection --}}
-
-
-<!doctype html>
-<html class="no-js" lang="zxx">
-
-<head>
-    @include('frontend.includes.include_css')
- 
-</head>
-
-<body class="template-color-1 template-font-1">
-
-    <!-- Wrapper -->
-    <div id="wrapper" class="wrapper">
-
-        <!-- Header -->
-        <header class="br_header header-default  black-logo--version haeder-fixed-width haeder-fixed-150 headroom--sticky header-mega-menu clearfix">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="header__wrapper mr--0">
-                            <!-- Header Left -->
-                            <div class="header-left">
-                                <div class="logo">
-                                    <a href="{{route('home')}}">
-                                        <img src="{{asset('assets/frontend/Logo/black_logo.png')}}" alt="Trinoq Logo">
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Mainmenu Wrap -->
-                            <div class="mainmenu-wrapper d-none d-lg-block">
-                                <nav class="page_nav">
-                                    <ul class="mainmenu">
-
-                                        <li class="lavel-1 slide--megamenu"><a href="{{route('home')}}"><span>Home</span></a></li>
-                                        <li class="lavel-1 slide--megamenu"><a href="#"><span>About Us</span></a></li>
-                                        <li class="lavel-1 slide--megamenu"><a href="#"><span>Services</span></a></li>
-                                        <li class="lavel-1 slide--megamenu"><a href="{{route('portfolio')}}"><span>Portfolio</span></a></li>
-                                        <li class="lavel-1 slide--megamenu"><a href="{{route('blog')}}"><span>Blog</span></a></li>
-                                        <li class="lavel-1 slide--megamenu"><a href="{{route('contact')}}"><span>Contact Us</span></a></li>
-
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!--// Header -->
-
         <!-- Start Breadcaump Area -->
-        <div class="breadcaump-area pt--400 pt_lg--300 pt_md--250 pt_sm--200 pb--100 bg_image--54 breadcaump-title-bar breadcaump-title-white">
+        <div class="breadcaump-area pt--150 pt_lg--150 pt_md--150 pt_sm--150 pb--40 bg_image--54 breadcaump-title-bar breadcaump-title-white">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -79,7 +27,7 @@
         <main class="page-content">
 
             <!-- Start Contact Area -->
-            <div class="bk_contact_classic bg_color--1 ptb--160 ptb-md--80 ptb-sm--80">
+            <div class="bk_contact_classic bg_color--1 ptb--50 ptb-md--30 ptb-sm--50">
                 <div class="container">
                     <div class="row">
 
@@ -126,7 +74,7 @@
             <!-- End Contact Area -->
               @include('message')
             <!-- Start Contact Form  -->
-            <div class="brook-contact-form-area ptb--150 ptb-md--80 ptb-sm--60 bg_color--5">
+            <div class="brook-contact-form-area ptb--80 ptb-md--80 ptb-sm--60 bg_color--5">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -169,15 +117,16 @@
                                             @endif
                                         </div>
 
-                                        {{-- <div class="col-12 mt--20">
+                                        <div class="col-12 mt--20">
                                             <div class="check-box">
                                                 <input type="checkbox" name="check" id="check">
                                                 <label for="check">I agree this terms and condition.</label>
                                             </div>
-                                        </div> --}}
+                                        </div>
 
                                         <div class="col-lg-12 mt--20">
-                                            <input type="submit" value="Send message">
+                                            {{-- <input type="submit" value="Send message"> --}}
+                                            <button class="btn btn-success btn-block" type="submit"> Submit</button>
                                         </div>
                                     </div>
                                 </form>
@@ -192,15 +141,4 @@
         <!--// Page Conttent -->
     </div>
 
-    <!-- Footer -->
-    @include('frontend.includes.footer')
-    <!--// Footer -->
-
-
-    <!--// Wrapper -->
-    <!-- Js Files -->
-    @include('frontend.includes.include_js')
-
-</body>
-
-</html>
+    @endsection

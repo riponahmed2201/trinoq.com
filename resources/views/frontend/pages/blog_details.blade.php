@@ -1,6 +1,28 @@
 @extends('master')
 
 @section('content')
+
+<!-- Start Breadcaump Area -->
+<div class="breadcaump-area pt--150 pt_lg--150 pt_md--150 pt_sm--150 pb--40 bg_image--54 breadcaump-title-bar breadcaump-title-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcaump-inner text-center">
+                    <h2 class="heading">Blog Details</h2>
+                    <div class="breadcrumb-insite">
+                        <ul class="core-breadcaump">
+                        <li><a href="{{route('home')}}">Home</a></li>
+                        <li><a href="{{route('blog')}}">Blog</a></li>
+                            <li class="current">Blog Details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcaump Area -->
+
 <main class="page-content">
 
     <!-- Start Blog Details -->
@@ -34,7 +56,7 @@
                                     <div class="item-grid grid-style--1">
                                         <div class="thumb">
                                             <a href="#">
-                                                <img src="img\instagram\instagram-1\instagram-md-1.jpg" alt="instagram images">
+                                            <img src="{{asset('assets/frontend/img/instagram/instagram-1/instagram-md-1.jpg')}}" alt="instagram images">
                                             </a>
                                             <div class="item-info">
                                                 <div class="inner">
@@ -50,7 +72,7 @@
                                     <div class="item-grid grid-style--1">
                                         <div class="thumb">
                                             <a href="#">
-                                                <img src="img\instagram\instagram-1\instagram-md-2.jpg" alt="instagram images">
+                                                <img src="{{asset('assets/frontend/img/instagram/instagram-1/instagram-md-2.jpg')}}" alt="instagram images">
                                             </a>
                                             <div class="item-info">
                                                 <div class="inner">
@@ -66,7 +88,7 @@
                                     <div class="item-grid grid-style--1">
                                         <div class="thumb">
                                             <a href="#">
-                                                <img src="img\instagram\instagram-1\instagram-md-3.jpg" alt="instagram images">
+                                                <img src="{{asset('assets/frontend/img/instagram/instagram-1/instagram-md-3.jpg')}}" alt="instagram images">
                                             </a>
                                             <div class="item-info">
                                                 <div class="inner">
@@ -82,7 +104,7 @@
                                     <div class="item-grid grid-style--1">
                                         <div class="thumb">
                                             <a href="#">
-                                                <img src="img\instagram\instagram-1\instagram-md-4.jpg" alt="instagram images">
+                                                <img src="{{asset('assets/frontend/img/instagram/instagram-1/instagram-md-4.jpg')}}" alt="instagram images">
                                             </a>
                                             <div class="item-info">
                                                 <div class="inner">
@@ -98,7 +120,7 @@
                                     <div class="item-grid grid-style--1">
                                         <div class="thumb">
                                             <a href="#">
-                                                <img src="img\instagram\instagram-1\instagram-md-5.jpg" alt="instagram images">
+                                                <img src="{{asset('assets/frontend/img/instagram/instagram-1/instagram-md-5.jpg')}}" alt="instagram images">
                                             </a>
                                             <div class="item-info">
                                                 <div class="inner">
@@ -114,7 +136,7 @@
                                     <div class="item-grid grid-style--1">
                                         <div class="thumb">
                                             <a href="#">
-                                                <img src="img\instagram\instagram-1\instagram-md-6.jpg" alt="instagram images">
+                                                <img src="{{asset('assets/frontend/img/instagram/instagram-1/instagram-md-6.jpg')}}" alt="instagram images">
                                             </a>
                                             <div class="item-info">
                                                 <div class="inner">
@@ -162,7 +184,7 @@
                             <div class="bl-sidebar banner mt--50 wow move-up">
                                 <div class="inner">
                                     <div class="thumb">
-                                        <img class="w-100" src="img\blog\big-img\banner-image.jpg" alt="banner">
+                                        <img class="w-100" src="{{asset('assets/frontend/img/blog/big-img/banner-image.jpg')}}" alt="banner">
                                     </div>
                                     <div class="content">
                                         <h4 class="heading heading-h4 text-white">Spot for banner</h4>
@@ -221,7 +243,7 @@
                             </div>
                             <!-- Start Thumbnail -->
                             <div class="thumbnail mb--60">
-                                <img class="w-100" src="img\blog\big-img\left-sidebar.jpg" alt="Multipurpose">
+                                <img class="w-100" src="{{asset('assets/frontend/img/blog/big-img/standard-post-2.jpg')}}" alt="Multipurpose">
                             </div>
                             <!-- Start Content -->
                             <div class="content basic-dark2-line-1px pb--50 mb--35">
@@ -239,7 +261,7 @@
                                     </div>
                                 </div>
                                 <div class="thumbnail">
-                                    <img class="w-100" src="img\blog\big-img\standard-post-2.jpg" alt="Multipurpose">
+                                    <img class="w-100" src="{{asset('assets/frontend/')}}img/blog/big-img/standard-post-2.jpg" alt="Multipurpose">
                                 </div>
                                 <div class="desc mt--45">
                                     <p class="bk_pra wow move-up">Photographers must have excellent technical
@@ -321,7 +343,7 @@
                                     <!-- Start Single Comment -->
                                     <div class="comment wow move-up">
                                         <div class="thumb">
-                                            <img src="img\blog\clint\clint-1.jpeg" alt="Multipurpose">
+                                            <img src="{{asset('assets/frontend/img/blog/clint/clint-1.jpeg')}}" alt="Multipurpose">
                                         </div>
                                         <div class="content">
                                             <h6 class="heading heading-h6">SCOTT JAMES</h6>
@@ -341,7 +363,7 @@
                                     <!-- Start Single Comment -->
                                     <div class="comment comment-reply wow move-up">
                                         <div class="thumb">
-                                            <img src="img\blog\clint\clint-2.jpeg" alt="Multipurpose">
+                                            <img src="{{asset('assets/frontend/img/blog/clint/clint-2.jpeg')}}" alt="Multipurpose">
                                         </div>
                                         <div class="content">
                                             <h6 class="heading heading-h6">OWEN CHRIST</h6>
@@ -361,7 +383,7 @@
                                     <!-- Start Single Comment -->
                                     <div class="comment wow move-up">
                                         <div class="thumb">
-                                            <img src="img\blog\clint\clint-3.jpeg" alt="Multipurpose">
+                                            <img src="{{asset('assets/frontend/img/blog/clint/clint-3.jpeg')}}" alt="Multipurpose">
                                         </div>
                                         <div class="content">
                                             <h6 class="heading heading-h6">EDNA WATSON</h6>
