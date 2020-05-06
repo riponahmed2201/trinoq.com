@@ -3,7 +3,7 @@
 @section('content')
 
         <!-- Start Breadcaump Area -->
-        <div class="breadcaump-area pt--150 pt_lg--150 pt_md--150 pt_sm--150 pb--40 bg_image--54 breadcaump-title-bar breadcaump-title-white">
+        <div class="breadcaump-area pt--100 pt_lg--100 pt_md--100 pt_sm--100 pb--40  breadcaump-title-bar breadcaump-title-black">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -29,11 +29,11 @@
 
 
         <div class="messonry-button text-center">
-            <button data-filter="*" class="is-checked"><span class="filter-text">All</span> <span class="filter-counter">9</span></button>
-            <button data-filter=".cat--1"><span class="filter-text">Creative</span> <span class="filter-counter">3</span></button>
-            <button data-filter=".cat--2"><span class="filter-text">Design</span> <span class="filter-counter">2</span></button>
-            <button data-filter=".cat--3"><span class="filter-text">Digital</span> <span class="filter-counter">4</span></button>
-            <button data-filter=".cat--4"><span class="filter-text">Photography</span> <span class="filter-counter">5</span></button>
+            <button data-filter="*" class="is-checked"><span class="filter-text">All</span> <span class="filter-counter">All</span></button>
+            <button data-filter=".cat--1"><span class="filter-text">Graphic Design</span> <span class="filter-counter">1</span></button>
+            <button data-filter=".cat--2"><span class="filter-text">Web Development</span> <span class="filter-counter">2</span></button>
+            <button data-filter=".cat--3"><span class="filter-text"> Mobile App Development</span> <span class="filter-counter">3</span></button>
+            <button data-filter=".cat--4"><span class="filter-text">Desktop Application</span> <span class="filter-counter">4</span></button>
         </div>
 
 

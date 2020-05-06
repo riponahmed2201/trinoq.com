@@ -2,7 +2,7 @@
 
 @section('content')
 
-        <!-- Start Breadcaump Area --> 
+        <!-- Start Breadcaump Area -->
         <div class="brook-breadcaump-area bg_image--16 ptb--150 pt_md--190 pb_md--100 pt_sm--190 pb_sm--100 breadcaump-title-bar" data-black-overlay='8'>
             <div class="container">
                 <div class="row">
@@ -32,7 +32,7 @@
                         <div class="col-12">
                             <div class="row bg_color--1 pt--70 space_dec--110 poss_relative basic-thick-line-theme-4">
                                 <!-- Start Single Icon Boxes -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow move-up">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 wow move-up">
                                     <div class="icon-box text-center no-border">
                                         <div class="inner">
                                             <div class="icon">
@@ -53,7 +53,7 @@
                                 <!-- End Single Icon Boxes -->
 
                                 <!-- Start Single Icon Boxes -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--70 wow move-up">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_mobile--70 wow move-up">
                                     <div class="icon-box text-center no-border">
                                         <div class="inner">
                                             <div class="icon">
@@ -64,7 +64,7 @@
                                                     Web Development
                                                 </h5>
                                                 <p class="bk_pra">
-                                                    In this digital world, the web is the handiest tool for every query we think about. 
+                                                    In this digital world, the web is the handiest tool for every query we think about.
                                                     And we do love to develop web technologies.
                                                 </p>
                                             </div>
@@ -74,7 +74,7 @@
                                 <!-- End Single Icon Boxes -->
 
                                 <!-- Start Single Icon Boxes -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--70 mt_sm--70 wow move-up">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt--70 wow move-up">
                                     <div class="icon-box text-center no-border">
                                         <div class="inner">
                                             <div class="icon">
@@ -85,7 +85,7 @@
                                                     Mobile App Development
                                                 </h5>
                                                 <p class="bk_pra">
-                                                    The next thing is going to happen in future is everything is on your palm. 
+                                                    The next thing is going to happen in future is everything is on your palm.
                                                     Yes Mobile Application. We develop native mobile application for you also.
                                                 </p>
                                             </div>
@@ -95,7 +95,7 @@
                                 <!-- End Single Icon Boxes -->
 
                                 <!-- Start Single Icon Boxes -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--70 wow move-up">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt--70 wow move-up">
                                     <div class="icon-box text-center no-border">
                                         <div class="inner">
                                             <div class="icon">
@@ -108,47 +108,6 @@
                                                 <p class="bk_pra">
                                                     Desktop applications are the most common use of industries.
                                                     We know how to develop that too.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Icon Boxes -->
-
-                                <!-- Start Single Icon Boxes -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--70 wow move-up">
-                                    <div class="icon-box text-center no-border">
-                                        <div class="inner">
-                                            <div class="icon">
-                                                <i class="ion-ios-infinite-outline"></i>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="heading heading-h5">
-                                                   Comming Soon
-
-                                                </h5>
-                                                <p class="bk_pra">
-                                                    Comming Soon
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Icon Boxes -->
-
-                                <!-- Start Single Icon Boxes -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--70 wow move-up">
-                                    <div class="icon-box text-center no-border">
-                                        <div class="inner">
-                                            <div class="icon">
-                                                <i class="ion-ios-cloudy-outline"></i>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="heading heading-h5">
-                                                    Comming Soon
-                                                </h5>
-                                                <p class="bk_pra">
-                                                    Comming Soon
                                                 </p>
                                             </div>
                                         </div>

@@ -91,7 +91,7 @@
                                     Mobile App Development
                                 </h4>
                                 <p>
-                                    The next thing is going to happen in future is everything is on your palm. 
+                                    The next thing is going to happen in future is everything is on your palm.
                                     Yes Mobile Application. We develop native mobile application for you also.
                                 </p>
                             </div>
@@ -145,82 +145,6 @@
         </div>
     </div>
     <!-- End Service Area -->
-
-    <!-- Start What We Do Area -->
-    {{-- <div class="brook-what-do-area ptb--160 ptb-md--80 ptb-sm--60 bg_color--1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-2">
-                    <div class="brook-section-title wow move-up">
-                        <h5 class="heading heading-h5 yellow-color-2">What we do</h5>
-                        <div class="bkseparator--30"></div>
-                        <h3 class="heading heading-h3 line-height-1-42">Effective solution <br> for every
-                            businesses</h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Start What Do Inner -->
-            <div class="row mt--20 mt_sm--5 mt_md--5">
-                <div class="col-lg-2">
-                    <div class="what-do mt--40 mt_md--20 mt_sm--5">
-                        <div class="basic-separator line-3"></div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="what-do mt--40">
-                        <div class="content">
-                            <h5 class="heading heading-h5 yellow-color-2 wow move-up">Fresh ideas</h5>
-                            <div class="bkseparator--20"></div>
-                            <p class="bk_pra wow move-up">Brook presents your services with flexible,
-                                convenient and multipurpose layouts. You can select your favorite layouts &
-                                elements for particular projects with unlimited customization possibilities.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 offset-lg-1">
-                    <div class="what-do mt--40">
-                        <div class="content">
-                            <h5 class="heading heading-h5 yellow-color-2 wow move-up">Unique designs</h5>
-                            <div class="bkseparator--20"></div>
-                            <p class="bk_pra wow move-up">Pixel-perfect replication of the designers is
-                                intended for both front-end & back-end developers to build their pages with
-                                greater comfort thanks to the higher customizability as well as flexibility.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End What Do Inner -->
-        </div>
-    </div> --}}
-    <!-- End What We Do Area -->
-
-    <!-- Start Video Popup Area -->
-    {{-- <div class="brook-video-area bg_color--1 pb--130 pb_md--80 pb_sm--60 bg-as-text">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-12">
-                    <div class="video-with-thumb text-center move-up wow">
-                        <div class="thumb">
-                        <img src="{{asset('assets/frontend/img/about/macbook-02.png')}}" alt="video images">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-12 mt_md--40 mt_sm--40">
-                    <div class="video-content move-up wow">
-                        <h3 class="heading heading-h3 line-height-1-42">Effective solution <br> for every
-                            businesses</h3>
-                        <div class="bkseparator--25"></div>
-                        <p class="bk_pra">Brook presents your services with flexible, convenient and
-                            multipurpose layouts. You can select your favorite layouts & elements for
-                            particular projects with unlimited customization possibilities.</p>
-                        <div class="bkseparator--40"></div>
-                        <a class="moredetails-btn yellow-color-2" href="#"><span>More details</span> <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- End Video Popup Area -->
 
     <!-- Start Brand Stratagy Area -->
     <div class="brook-stratagy-area bg_color--7">

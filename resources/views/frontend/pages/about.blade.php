@@ -9,8 +9,8 @@
                     <div class="col-lg-12">
                         <div class="breadcaump-inner text-center mt_sm--50 mt_md--50">
                             <h1 class="heading heading-h1 text-white">A home of out of box thinkers.</h1>
-                                <br> <h5 class="heading heading-h5 text-white"> We Design & Develop Digital Projects, but differently. </h5> 
-                            
+                                <br> <h5 class="heading heading-h5 text-white"> We Design & Develop Digital Projects, but differently. </h5>
+
                         </div>
                     </div>
                 </div>
@@ -111,11 +111,6 @@
                         <div class="col-lg-6">
                             <!-- Start Single Progress -->
                             <div class="radial-progress-single progress-flex mt--40">
-                                <div class="radial-progress" data-percent="80" data-bar-color="#0038E3" data-track-color="#eeeeee">
-                                    <div class="circle-text">
-                                        <span class="count">80</span>
-                                    </div>
-                                </div>
                                 <div class="contant pl--30 pl_mobile--5 pt_mobile--30">
                                     <h5 class="heading heading-h5">Creative designs</h5>
                                     <p class="bk_pra mt--30">Brook presents your services with flexible, convenient and
@@ -126,11 +121,6 @@
                             <!-- End Single Progress -->
                             <!-- Start Single Progress -->
                             <div class="radial-progress-single progress-flex mt--80">
-                                <div class="radial-progress" data-percent="90" data-bar-color="#0038E3" data-track-color="#eeeeee">
-                                    <div class="circle-text">
-                                        <span class="count">90</span>
-                                    </div>
-                                </div>
                                 <div class="contant pl--30 pl_mobile--5 pt_mobile--30">
                                     <h5 class="heading heading-h5">Unique solutions</h5>
                                     <p class="bk_pra mt--30">Pixel-perfect replication of the designers is intended for
@@ -144,123 +134,6 @@
                 </div>
             </div>
             <!-- End Work area -->
-
-            <!-- Start Team Area -->
-            <div class="brook-team-area bg_color--5 ptb--150 ptb-sm--60 ptb-md--80 slick-arrow-hover">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="bk-title--default text-center mb--70">
-                                <h6 class="heading heading-h6 theme-color">TEAM MEMBERS</h6>
-                                <div class="bkseparator--30"></div>
-                                <h3 class="heading heading-h3">Our creative crew</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="brook-element-carousel slick-arrow-center slick-arrow-rounded" data-slick-options='{
-                                "spaceBetween": 15, 
-                                "slidesToShow": 3, 
-                                "slidesToScroll": 1, 
-                                "arrows": true, 
-                                "infinite": true,
-                                "dots": false,
-                                "prevArrow": {"buttonClass": "slick-btn slick-prev", "iconClass": "ion ion-ios-arrow-back" },
-                                "nextArrow": {"buttonClass": "slick-btn slick-next", "iconClass": "ion ion-ios-arrow-forward" }
-                            }' data-slick-responsive='[
-                            {"breakpoint":991, "settings": {"slidesToShow": 2}},
-                            {"breakpoint":690, "settings": {"slidesToShow": 2}},
-                            {"breakpoint":590, "settings": {"slidesToShow": 1}}
-                            ]'>
-
-
-                                <!-- Start Single Team -->
-                                <div class="team team__style--2 move-up wow">
-                                    <div class="thumb">
-                                        <img src="{{asset('assets/frontend/img/team/team-2/team-1.jpg')}}" alt="team Images">
-                                        <div class="overlay"></div>
-                                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                        </ul>
-                                        <div class="team-info">
-                                            <div class="info">
-                                                <h5>John Doe</h5>
-                                                <span>Founder</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Team -->
-
-                                <!-- Start Single Team -->
-                                <div class="team team__style--2 move-up wow" data-wow-delay="0.13s">
-                                    <div class="thumb">
-                                        <img src="{{asset('assets/frontend/img/team/team-2/team-2.jpg')}}" alt="team Images">
-                                        <div class="overlay"></div>
-                                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                        </ul>
-                                        <div class="team-info">
-                                            <div class="info">
-                                                <h5>Kasahara May</h5>
-                                                <span>Project manager</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Team -->
-
-                                <!-- Start Single Team -->
-                                <div class="team team__style--2 move-up wow" data-wow-delay="0.16s">
-                                    <div class="thumb">
-                                        <img src="{{asset('assets/frontend/img/team/team-2/team-3.jpg')}}" alt="team Images">
-                                        <div class="overlay"></div>
-                                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                        </ul>
-                                        <div class="team-info">
-                                            <div class="info">
-                                                <h5>Blake Hamilton</h5>
-                                                <span>Engineer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Team -->
-
-                                <!-- Start Single Team -->
-                                <div class="team team__style--2 move-up wow" data-wow-delay="0.19s">
-                                    <div class="thumb">
-                                        <img src="{{asset('assets/frontend/img/team/team-2/team-4.jpg')}}" alt="team Images">
-                                        <div class="overlay"></div>
-                                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                        </ul>
-                                        <div class="team-info">
-                                            <div class="info">
-                                                <h5>John Doe</h5>
-                                                <span>Founder</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Team -->
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Team Area -->
 
             <!-- Start Accordion Area -->
             <div class="bk-accordion-area ptb--150 ptb-md--80 ptb-sm--60 bg_color--1">

@@ -4,7 +4,7 @@
 @section('content')
 
     <!-- Start Breadcaump Area -->
-    <div class="breadcaump-area pt--150 pt_lg--150 pt_md--150 pt_sm--150 pb--40 bg_image--54 breadcaump-title-bar breadcaump-title-white">
+    <div class="breadcaump-area pt--100 pt_lg--100 pt_md--100 pt_sm--100 pb--40  breadcaump-title-bar breadcaump-title-black">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
