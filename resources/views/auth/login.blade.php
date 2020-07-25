@@ -22,12 +22,13 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="javascript:void(0)"><b>Admin</b>Login</a>
+    {{-- <a href="javascript:void(0)"><b>Admin</b>Login</a> --}}
+    <img  style="width: 250px;" src="{{ asset('assets/frontend/Logo/black_logo.png') }}" alt="">
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Login to start your session</p>
+      <p class="login-box-msg"> Admin Login</p>
 
     <form action="{{route('login')}}" method="POST">
         @csrf
@@ -76,9 +77,6 @@
         </div>
       </form>
 
-      <p class="mb-1">
-        <a href="#">I forgot my password</a>
-      </p>
     </div>
     <!-- /.login-card-body -->
   </div>
